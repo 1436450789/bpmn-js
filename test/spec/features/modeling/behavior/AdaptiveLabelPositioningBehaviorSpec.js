@@ -282,6 +282,12 @@ describe('modeling/behavior - AdaptiveLabelPositioningBehavior', function() {
 
     });
 
+
+    describe('on boundary label creation', function() {
+
+      it('should NOT create label onto host');
+    });
+
   });
 
 });
